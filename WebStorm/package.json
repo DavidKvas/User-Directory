@@ -1,0 +1,34 @@
+{
+  "name": "UserDirectory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "react": "^0.14.0",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-watch": "latest",
+    "babelify": "latest",
+    "browserify": "latest",
+    "vinyl-source-stream": "latest",
+    "gulp-rename": "latest",
+    "gulp-zip": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-sass": "latest",
+    "gulp-replace": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-notify": "latest",
+    "stringify": "latest"
+  },
+  "scripts": {
+    "build": "gulp \"build\""
+  },
+  "browserify": {
+  },
+  "author": "",
+  "license": "ISC"
+}

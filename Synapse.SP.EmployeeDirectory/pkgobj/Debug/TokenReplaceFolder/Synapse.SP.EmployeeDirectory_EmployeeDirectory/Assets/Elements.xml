@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Assets">
+    <File Path="Assets\js\config.js" Url="Assets/js/config.js" ReplaceContent="TRUE" />
+    <File Path="Assets\js\vendor\jquery.min.js" Url="Assets/js/vendor/jquery.min.js" ReplaceContent="TRUE" />
+    <File Path="Assets\js\vendor\react-dom.js" Url="Assets/js/vendor/react-dom.js" ReplaceContent="TRUE" />
+    <File Path="Assets\js\vendor\react.js" Url="Assets/js/vendor/react.js" ReplaceContent="TRUE" />
+    <File Path="Assets\js\vendor\underscore-min.js" Url="Assets/js/vendor/underscore-min.js" ReplaceContent="TRUE" />
+    <File Path="Assets\css\main.css" Url="Assets/css/main.css" ReplaceContent="TRUE" />
+    <File Path="Assets\js\app.js" Url="Assets/js/app.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

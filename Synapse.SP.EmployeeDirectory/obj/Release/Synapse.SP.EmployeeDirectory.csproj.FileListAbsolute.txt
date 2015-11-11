@@ -1,0 +1,4 @@
+C:\Synapse.SP.EmployeeDirectory\Synapse.SP.EmployeeDirectory\bin\Release\Synapse.SP.EmployeeDirectory.pdb
+C:\Synapse.SP.EmployeeDirectory\Synapse.SP.EmployeeDirectory\obj\Release\Synapse.SP.EmployeeDirectory.dll
+C:\Synapse.SP.EmployeeDirectory\Synapse.SP.EmployeeDirectory\obj\Release\Synapse.SP.EmployeeDirectory.pdb
+C:\Synapse.SP.EmployeeDirectory\Synapse.SP.EmployeeDirectory\obj\Release\Synapse.SP.EmployeeDirectory.csprojResolveAssemblyReference.cache

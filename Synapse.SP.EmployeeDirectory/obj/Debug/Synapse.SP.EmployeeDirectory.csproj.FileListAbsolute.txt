@@ -1,0 +1,6 @@
+C:\Projects\DK\Synapse.SP.EmployeeDirectory\Synapse.SP.EmployeeDirectory\bin\Debug\Synapse.SP.EmployeeDirectory.pdb
+C:\Projects\DK\Synapse.SP.EmployeeDirectory\Synapse.SP.EmployeeDirectory\obj\Debug\Synapse.SP.EmployeeDirectory.dll
+C:\Projects\DK\Synapse.SP.EmployeeDirectory\Synapse.SP.EmployeeDirectory\obj\Debug\Synapse.SP.EmployeeDirectory.pdb
+C:\Synapse.SP.EmployeeDirectory\Synapse.SP.EmployeeDirectory\bin\Debug\Synapse.SP.EmployeeDirectory.pdb
+C:\Synapse.SP.EmployeeDirectory\Synapse.SP.EmployeeDirectory\obj\Debug\Synapse.SP.EmployeeDirectory.dll
+C:\Synapse.SP.EmployeeDirectory\Synapse.SP.EmployeeDirectory\obj\Debug\Synapse.SP.EmployeeDirectory.pdb

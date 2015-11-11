@@ -1,0 +1,32 @@
+<div class="user"  style="background-color:#ffffff;transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;box-sizing:border-box;font-family:Roboto, sans-serif;-webkit-tap-highlight-color:rgba(0,0,0,0);box-shadow:0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);border-radius:2px;">
+    <div class="image">
+        <a href="{{Path}}" target="_blank" title="Open user profile page">
+            <img src="{{LargePictureURL}}" style="height:78px;width:78px;-webkit-user-select:none;border-radius:50%;display:inline-block;border:solid 1px rgba(0, 0, 0, 0.08);" >
+        </a>
+    </div>
+    <div class="info">
+        <div class="name">
+            {{#if PreferredName }}
+                {{PreferredName}}
+            {{else}}
+                {{FirstName}} {{LastName}}
+            {{/if}}
+        </div>
+        {{#if JobTitle}}
+            <div class="title">{{JobTitle}}</div>
+        {{/if}}
+        {{#if WorkEmail}}
+            <div class="email">
+                <span>e: </span><a href="mailto:{{WorkEmail}}">{{WorkEmail}}</a>
+            </div>
+        {{/if}}
+        <div class="separated">
+            {{#if WorkPhone }}
+                <span>{{ WorkPhone }}</span>
+            {{/if}}
+            {{#if OfficeNumber }}
+                <span>{{ OfficeNumber }}</span>
+            {{/if}}
+        </div>
+    </div>
+</div>

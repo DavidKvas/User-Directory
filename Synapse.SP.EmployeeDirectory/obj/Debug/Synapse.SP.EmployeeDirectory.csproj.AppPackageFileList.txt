@@ -1,0 +1,1 @@
+C:\Synapse.SP.EmployeeDirectory\Synapse.SP.EmployeeDirectory\bin\Debug\app.publish\1.0.5.0\Synapse.SP.EmployeeDirectory.app

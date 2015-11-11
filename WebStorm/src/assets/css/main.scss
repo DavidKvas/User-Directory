@@ -1,0 +1,92 @@
+#s4-ribbonrow {
+    display:none;
+}
+
+#app {
+    .content {
+        padding: 10px 30px;
+    }
+
+    .hide {
+        display:none;
+    }
+}
+
+.s-directory {
+    .progressBar {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .usersPanel {
+        padding: 10px;
+    }
+
+    .user {
+        $userPanelWidth: 350px;
+        $avatarPanelWidth: 100px;
+        $padding: 10px;
+
+        float: left;
+        box-sizing: border-box;
+        width: $userPanelWidth;
+        margin: 10px;
+        padding: $padding;
+
+        .image {
+            float: left;
+            width: $avatarPanelWidth;
+            box-sizing: border-box;
+            padding: 5px;
+        }
+
+        .info {
+            float: left;
+            width: $userPanelWidth - $avatarPanelWidth - 2*$padding;
+            box-sizing: border-box;
+            padding-top: 5px;
+
+            > div {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                line-height: 1.5em;
+
+                &.separated {
+                    span {
+                        &:after {
+                            content: "\0000a0\0000a0|\0000a0";
+                        }
+
+                        &:last-child:after {
+                            content: "";
+                        }
+                    }
+                }
+            }
+
+            .name {
+                font-size: 15px;
+                font-weight: bold;
+                color: rgba(0, 0, 0, 0.87);
+            }
+
+            .title {
+                font-style: italic;
+            }
+        }
+    }
+
+}
+
+#s4-titlerow {
+    display:none !important;
+}
+
+#contentRow {
+    padding: 0 !important;
+}
+
+#contentBox {
+ margin:0 !important;
+}

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Settings" OnQuickLaunch="FALSE" TemplateType="100" Url="Lists/Settings" Description="Settings list" Hidden="TRUE">    
+    <Data>      
+      <Rows>
+        <Row>
+          <Field Name="Key">UserTemplate</Field>
+          <Field Name="Value">&lt;div class="user"  style="background-color:#ffffff;transition:all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;box-sizing:border-box;font-family:Roboto, sans-serif;-webkit-tap-highlight-color:rgba(0,0,0,0);box-shadow:0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);border-radius:2px;"&gt;
+&lt;div class="image"&gt;
+&lt;a href="{{Path}}" target="_blank" title="Open user profile page"&gt;
+&lt;img src="{{LargePictureURL}}" style="height:78px;width:78px;-webkit-user-select:none;border-radius:50%;display:inline-block;border:solid 1px rgba(0, 0, 0, 0.08);" &gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="info"&gt;
+&lt;div class="name"&gt;
+{{#if PreferredName }}
+{{PreferredName}}
+{{else}}
+{{FirstName}} {{LastName}}
+{{/if}}
+&lt;/div&gt;
+{{#if JobTitle}}
+&lt;div class="title"&gt;{{JobTitle}}&lt;/div&gt;
+{{/if}}
+{{#if WorkEmail}}
+&lt;div class="email"&gt;
+&lt;span&gt;e: &lt;/span&gt;&lt;a href="mailto:{{WorkEmail}}"&gt;{{WorkEmail}}&lt;/a&gt;
+&lt;/div&gt;
+{{/if}}
+&lt;div class="separated"&gt;
+{{#if WorkPhone }}
+&lt;span&gt;{{ WorkPhone }}&lt;/span&gt;
+{{/if}}
+{{#if OfficeNumber }}
+&lt;span&gt;{{ OfficeNumber }}&lt;/span&gt;
+{{/if}}
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</Field>
+        </Row>
+        <Row>
+          <Field Name="Key">UserGroupsToDisplay</Field>
+          <Field Name="Value"></Field>
+        </Row>
+      </Rows>
+  </Data>
+  </ListInstance>
+</Elements>

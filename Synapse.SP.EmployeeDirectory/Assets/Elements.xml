@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Assets">
+    <File Path="Assets\css\main.css" Url="Assets/css/main.css" ReplaceContent="TRUE" />
+    <File Path="Assets\js\app.js" Url="Assets/js/app.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="605b96b3-4cb4-4ac9-9fe9-6371b5624f13" 
+        solutionId="605b96b3-4cb4-4ac9-9fe9-6371b5624f13" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Synapse.SP.EmployeeDirectory"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="1c7bcddc-a9fd-4d81-99ef-3224e94b63d1" />
+  </features>
+</package>

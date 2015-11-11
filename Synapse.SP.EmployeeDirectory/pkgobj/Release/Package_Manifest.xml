@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="605b96b3-4cb4-4ac9-9fe9-6371b5624f13" SharePointProductVersion="16.0">
+  <FeatureManifests>
+    <FeatureManifest Location="Synapse.SP.EmployeeDirectory_EmployeeDirectory\Feature.xml" />
+  </FeatureManifests>
+</Solution>

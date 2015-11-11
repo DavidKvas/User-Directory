@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Published:920014D5-5E5A-442D-934A-437E4FB0A4DA-->
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="SynapseEmployeeDirectory" ProductID="{ccdedc27-411a-4bf1-ae5a-88d07a31b731}" Version="1.0.5.0" SharePointMinVersion="16.0.0.0">
+  <Properties>
+    <Title>Employee Directory</Title>
+    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+  </Properties>
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+  <AppPermissionRequests AllowAppOnlyPolicy="false">
+    <AppPermissionRequest Scope="http://sharepoint/search" Right="QueryAsUserIgnoreAppPrincipal" />
+  </AppPermissionRequests>
+</App>
